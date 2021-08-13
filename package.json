@@ -4,12 +4,14 @@
   "description": "App to learn React, hooks, props, ....",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "PORT=8000 react-scripts start"
   },
   "author": "Jorge Eduarod Ardila <digitaico>",
   "license": "ISC",
   "dependencies": {
-    "react-router-dom": "^5.2.0"
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^4.0.3"
   },
   "devDependencies": {
     "cors": "^2.8.5",
@@ -20,5 +22,17 @@
     "eslint-plugin-react": "^7.24.0",
     "eslint-plugin-react-hooks": "^4.2.0",
     "express": "^4.17.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
